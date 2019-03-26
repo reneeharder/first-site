@@ -1,0 +1,193 @@
+body {
+    margin: 0 auto;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/***************Nav Bar Styles*************/
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #c7bbc4; /*light mauve*/ 
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 107px;    
+    width: 249px;
+    margin-top: 0;
+}
+
+.nav-list {
+   float: right; 
+   margin-right: 30px;
+   margin-top: 34px;
+}
+
+.list-item {
+    float: left;
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #2c3157;
+    text-shadow: right;
+}
+
+.list-item a:hover {
+    color: white;
+}
+
+/*********End of Nav-Bar*********/
+
+.hero {
+    background-image: url('../images/ij/hero.jpg');
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-box {
+    background-color: #c7bbc4;
+    border: 3px white;
+    line-height: 1.3;
+    border-radius: 5px;
+    height: 149px;
+    width: 400px;
+    padding: 5px;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    box-shadow: -5px -5px #656370;
+}
+
+h1 {
+    color: #2c3157;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    margin-top: 1px;
+}
+/********End of Hero********/
+
+.content {
+    height: 300px;
+    width: 100%;
+}
+.content-img {
+    height: 300px;
+    width: 40%;
+    border: 5px double #2c3157;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+.content-text {
+    height: 300px;
+    width: 55%;
+    border: 5px double #2c3157;
+    padding: 3px;
+    float: left;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: 'Heebo', sans-serif;
+    line-height: 1.3;
+    margin-left: 15px;
+}
+
+.footer {
+    height: 75px;
+    width: 100%;
+    background-color: #c7bbc4;
+    overflow: hidden;
+}
+
+.footer-col {
+    height: 75px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+input {
+    height: 20px;
+    width: 150px;
+}
+
+button {
+    height: 20px;
+    width: 80px;
+    border-radius: 10px;
+    margin-top: 15px;   
+}
+
+.fa-instagram {
+    font-size: 3em;
+    color: #FD1D1D;
+    margin-top: 6px;
+}
+
+.fa-facebook {
+    font-size: 3em;
+    color: #3b5998
+}
+
+/**********About Styles*********/
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 110px;
+    
+}
+
+.columns {
+    height: 700px;
+    width: 30%;
+    border: 2px solid #2c3157;
+    float: left;
+    overflow: hidden;
+    padding: 8px;
+    font-family: 'Heebo', sans-serif;
+    margin: 10px;
+}
+
+.col-img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+}
+
+.audio {
+    display: block;
+    margin: auto;
+    padding: 10px 5px 10px 5px;
+}
+
+.video {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+/************Contact Styles************/
+
+.contact-container {
+    height: 900px;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.contact-container iframe {
+    width: 45%;
+    margin-left: 15px;
+    float: left;
+}
